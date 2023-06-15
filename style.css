@@ -429,3 +429,9 @@ nav .fa {
         font-size: 14px;
     }
 }
+
+#msg {
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
