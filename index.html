@@ -14,11 +14,11 @@
             <nav>
                 <img src="images/" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -178,7 +178,7 @@
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                   </form>
-               <span id="msg">hello</span>   
+               <span id="msg"></span>   
             </div>
         </div>
     </div>
@@ -220,7 +220,7 @@ function closemenu() {
 </script>
 
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxBW3RzPhj6LoDmheuMkFFruA9kSMguEykSZKZfX7EXNb0H0h27VPxQP-dmNhSdg2By/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxDgxHDyAMXPWvBQOCxRMtat6gyzAU4BRox5-mXIZITmJWeTTd4RLw_xGCMAy5-lPnP/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg");
 
