@@ -113,11 +113,14 @@ nav ul li a:hover::after {
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 10px;
 }
+
+
 
 .tab-titles {
     display: flex;
-    margin: 20px 0 40px;
+    margin: 30px 0 30px;
 }
 
 .tab-links {
