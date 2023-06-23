@@ -35,9 +35,9 @@ nav {
     flex-wrap: wrap;
 }
 
-.logo {
+/* .logo {
     width: 140px;
-}
+} */
 
 nav ul li {
  display: inline-block;
@@ -151,6 +151,14 @@ nav ul li a:hover::after {
 .tab-contents ul li span {
     color: #9e6a2f;
     font-size: 14px;
+}
+
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+   display: block;
 }
 
 /* -----------------services----------- */
@@ -369,11 +377,11 @@ form .btn2 {
 
 /* -------- css for small screens -------  */
 
-nav .fa {
+nav .fa-solid {
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     #header {
         background-image: url(images/Pattern_2.png);
     }
@@ -390,6 +398,7 @@ nav .fa {
     }
     nav ul {
         background: #ac7330;
+        opacity: 0.8;
         position: fixed;
         top: 0;
         right: -200px;
