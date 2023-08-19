@@ -19,7 +19,8 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/header.png);
+    background: #F3C301;
+    /* background-image: url(images/header.png); */
     background-size: cover;
     background-position: center;
 }
@@ -189,9 +190,9 @@ nav ul li a:hover::after {
 
 .services-list div {
     /* background: #262626; */
-    background: #9DA1A4;
+    background: #F3C301;
     padding: 40px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
@@ -250,7 +251,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.7), #81AEB9);
+    background: linear-gradient(rgba(0,0,0,0.7), #ADCACB);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -323,7 +324,8 @@ nav ul li a:hover::after {
 }
 
 .contact-left p i {
-    color: #81AEB9;
+    color: 
+    #ADCACB;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -342,13 +344,14 @@ nav ul li a:hover::after {
 }
 
 .social-items a:hover {
-    color: #81AEB9;
+    color:
+    #FEE3A2;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background: #81AEB9;
+    background:#ADCACB;
 }
 
 .contact-right form {
@@ -396,14 +399,42 @@ nav .fa-solid {
 
 @media only screen and (max-width: 700px) {
     #header {
-        background-image: url(images/Pattern_2.png);
+        background: #ADCACB;
+        /* background-image: url(images/Pattern_2.png); */
     }
     .header-text {
-        margin-top: 100%;
-        font-size: 16px;
+        margin-top: 40%;
+        font-size: 20px; 
     }
+    .sub-title {
+        color: 
+        #ADCACB;
+    }
+    .tab-contents ul li span {
+        color: 
+        #ADCACB;
+    }
+    .tab-links::after {
+        background:
+        #ADCACB;
+    }
+
     .header-text h1 {
-        font-size: 30px;
+        font-size: 40px;
+    }
+    .header-text h1 span {
+        color: #FEE3A2;
+    }
+    .header-text p {
+        color: #FEE3A2;
+    }
+
+    .services-list div {
+        background:#ADCACB;
+    }
+
+    .layer {
+        background: linear-gradient(rgba(0,0,0,0.7), #FEE3A2);
     }
     nav .fa-solid {
         display: block;
