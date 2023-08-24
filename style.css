@@ -311,12 +311,19 @@ nav ul li a:hover::after {
 
 /* ------------------- contact ----------------  */
 
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .contact-left {
     flex-basis: 35%;
 }
 
 .contact-right {
     flex-basis: 60%;
+
 }
 
 .contact-left p {
@@ -500,3 +507,4 @@ nav .fa-solid {
     margin-top: -40px;
     display: block;
 }
+

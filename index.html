@@ -176,17 +176,27 @@
                 <a href="download/Edyta Linert__CV.pdf" download class="btn btn2">Download CV</a>
             </div>
             
+
+        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+            
             <div class="contact-right">
-                  <form name ="submit-to-google-sheet">
+                <form>
+                    <input type="hidden" name="access_key" value="50551860-be46-4584-b6ff-30bae3279389" />
+                    <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+                    <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
                     <input type="text" name="Name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                  </form>
-               <span id="msg"></span>   
+                    <button type="submit" class="btn btn2">Submit</button>  
+                </form>    
             </div>
+            
+        </form>
         </div>
     </div>
+
     <div class="copyright">
         <p><i class="fa-solid fa-heart"></i> by Edyta</p>
     </div>
